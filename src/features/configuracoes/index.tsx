@@ -1,6 +1,5 @@
 import { Outlet } from '@tanstack/react-router'
 import {
-  IconNotification,
   IconPalette,
   IconTool,
 } from '@tabler/icons-react'
@@ -58,9 +57,9 @@ const sidebarNavItems = [
     icon: <IconPalette size={18} />,
     href: '/configuracoes/aparencia',
   },
-  {
-    title: 'Notificações',
-    icon: <IconNotification size={18} />,
-    href: '/configuracoes/notificacoes',
-  },
+  // {
+  //   title: 'Notificações',
+  //   icon: <IconNotification size={18} />,
+  //   href: '/configuracoes/notificacoes',
+  // },
 ]

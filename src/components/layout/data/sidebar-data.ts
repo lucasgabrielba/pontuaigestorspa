@@ -1,12 +1,11 @@
 import {
   IconHelp,
   IconLayoutDashboard,
-  IconNotification,
   IconPalette,
   IconSettings,
   IconTool,
 } from '@tabler/icons-react'
-import { CreditCard, FileText, SquareAsterisk } from 'lucide-react'
+import { SquareAsterisk } from 'lucide-react'
 import { type SidebarData } from '../types'
 
 export const sidebarData: SidebarData = {
@@ -31,22 +30,7 @@ export const sidebarData: SidebarData = {
           title: 'Dashboard',
           url: '/',
           icon: IconLayoutDashboard,
-        },
-        {
-          title: 'Cartões',
-          url: '/cartoes',
-          icon: CreditCard,
-        },
-        {
-          title: 'Faturas',
-          url: '/faturas',
-          icon: FileText,
-        },
-        // {
-        //   title: 'Pontos',
-        //   url: '/pontos',
-        //   icon: Waypoints,
-        // },
+        }
       ],
     },
     {
@@ -66,11 +50,11 @@ export const sidebarData: SidebarData = {
               url: '/configuracoes/aparencia',
               icon: IconPalette,
             },
-            {
-              title: 'Notificações',
-              url: '/configuracoes/notificacoes',
-              icon: IconNotification,
-            },
+            // {
+            //   title: 'Notificações',
+            //   url: '/configuracoes/notificacoes',
+            //   icon: IconNotification,
+            // },
           ],
         },
         {
